@@ -11,9 +11,9 @@ namespace CSharpJunior_PromiseGroup
         static List<OrderItem> orderItemList = new List<OrderItem>(); 
         private static void addProduct(){
             Product chosenProduct = null;
-            Console.Clear();
             var productChoice = "";
             while(productChoice != "q"){
+                Console.Clear();
                 Console.WriteLine("Wybierz produkt do dodania do zamówienia");
                 foreach (var product in productList)
                 {
@@ -27,12 +27,49 @@ namespace CSharpJunior_PromiseGroup
                     }
                 }
             }
+            Console.Clear();
         }
         private static void removeProduct(){
             
         }
         private static void checkTotal(){
-            
+            Console.Clear();
+            // Dictionary to hold product counts
+            Dictionary<Product, int> productCounts = new Dictionary<Product, int>();
+
+            foreach (var orderItem in orderItemList)
+            {
+                if (productCounts.ContainsKey(orderItem.product))
+                {
+                    productCounts[orderItem.product]++;
+                }
+                else
+                {
+                    productCounts[orderItem.product] = 1;
+                }
+            }
+
+            // Display the items in the order with their quantities
+            Console.WriteLine("Produkty w zamówieniu:");
+            decimal totalAmount = 0;
+            foreach (var entry in productCounts)
+            {
+                var product = entry.Key;
+                int quantity = entry.Value;
+
+                // Calculate total price for each product
+                decimal productTotal = product.Price * quantity;
+                totalAmount += productTotal;
+
+                // Display the product name, quantity, and total price for that product
+                Console.WriteLine($"{product.Name} {product.Price}zł [{quantity} szt.] - {productTotal}zł");
+            }
+
+            // Display the total sum to pay
+            Console.WriteLine($"\nCałkowita suma do zapłaty: {totalAmount}zł");
+            Console.Write("Aby wrócić do menu wciśnij ENTER");
+            Console.ReadLine();
+            Console.Clear();
         }
 
         public static void Main(string[] args)

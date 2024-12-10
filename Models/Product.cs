@@ -12,5 +12,11 @@ namespace Models
         {
             return $"{Name} - {Price}zł";
         }
+
+        public Product(int id, string name, decimal price){
+            Id = id;
+            Name = name;
+            Price = price;
+        }
     }
 }

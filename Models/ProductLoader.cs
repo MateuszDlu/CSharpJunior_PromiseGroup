@@ -24,12 +24,7 @@ public static class ProductLoader
 
                     var values = line.Split(',');
 
-                    var product = new Product
-                    {
-                        Id = int.Parse(values[0].Trim()),
-                        Name = values[1].Trim(),
-                        Price = decimal.Parse(values[2].Trim())
-                    };
+                    var product = new Product(int.Parse(values[0].Trim()), values[1].Trim(), decimal.Parse(values[2].Trim()));
 
                     products.Add(product);
                 }

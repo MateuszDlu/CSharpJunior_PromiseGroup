@@ -1,6 +1,6 @@
-Name,Price
-Laptop,2500
-Klawiatura,120
-Mysz,90
-Monitor,1000
-Kaczka debuggujaca,66
+Id,Name,Price
+1,Laptop,2500
+2,Klawiatura,120
+3,Mysz,90
+4,Monitor,1000
+5,Kaczka debuggujaca,66

@@ -1,12 +1,16 @@
 using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+using Models;
 
 namespace Models
 {
     public class OrderItem
     {
-        
+        public Product product { get; set;}
+        public Order order { get; set;}
+        public OrderItem(Product product, Order order){
+            this.product = product;
+            this.order = order;
+        }
     }
 }

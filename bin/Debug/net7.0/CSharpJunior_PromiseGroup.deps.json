@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "CSharpJunior_PromiseGroup/1.0.0": {
+        "runtime": {
+          "CSharpJunior_PromiseGroup.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CSharpJunior_PromiseGroup/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

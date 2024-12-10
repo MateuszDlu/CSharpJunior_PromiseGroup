@@ -1,0 +1,14 @@
+D:\Program files\CSharpJunior_PromiseGroup\obj\Debug\net7.0\CSharpJunior_PromiseGroup.GeneratedMSBuildEditorConfig.editorconfig
+D:\Program files\CSharpJunior_PromiseGroup\obj\Debug\net7.0\CSharpJunior_PromiseGroup.AssemblyInfoInputs.cache
+D:\Program files\CSharpJunior_PromiseGroup\obj\Debug\net7.0\CSharpJunior_PromiseGroup.AssemblyInfo.cs
+D:\Program files\CSharpJunior_PromiseGroup\obj\Debug\net7.0\CSharpJunior_PromiseGroup.csproj.CoreCompileInputs.cache
+D:\Program files\CSharpJunior_PromiseGroup\bin\Debug\net7.0\CSharpJunior_PromiseGroup.exe
+D:\Program files\CSharpJunior_PromiseGroup\bin\Debug\net7.0\CSharpJunior_PromiseGroup.deps.json
+D:\Program files\CSharpJunior_PromiseGroup\bin\Debug\net7.0\CSharpJunior_PromiseGroup.runtimeconfig.json
+D:\Program files\CSharpJunior_PromiseGroup\bin\Debug\net7.0\CSharpJunior_PromiseGroup.dll
+D:\Program files\CSharpJunior_PromiseGroup\bin\Debug\net7.0\CSharpJunior_PromiseGroup.pdb
+D:\Program files\CSharpJunior_PromiseGroup\obj\Debug\net7.0\CSharpJunior_PromiseGroup.dll
+D:\Program files\CSharpJunior_PromiseGroup\obj\Debug\net7.0\refint\CSharpJunior_PromiseGroup.dll
+D:\Program files\CSharpJunior_PromiseGroup\obj\Debug\net7.0\CSharpJunior_PromiseGroup.pdb
+D:\Program files\CSharpJunior_PromiseGroup\obj\Debug\net7.0\CSharpJunior_PromiseGroup.genruntimeconfig.cache
+D:\Program files\CSharpJunior_PromiseGroup\obj\Debug\net7.0\ref\CSharpJunior_PromiseGroup.dll
